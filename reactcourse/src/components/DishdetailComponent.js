@@ -16,7 +16,7 @@ class DishDetail extends Component {
                             <div key={dishComment.id} className="list-unstyled">
                                 <div className="p-2">{dishComment.comment}</div>
                                 <div className="p-2">
-                                    -- {dishComment.author}, {dishComment.date}
+                                    -- {dishComment.author}, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(dishComment.date)))}
                                 </div>
                             </div>
                         );
