@@ -51,9 +51,6 @@ class Menu extends Component {
     }
 }
 
-// bu bir deneme
-
-// bu da ikincisi
 
 
 export default Menu;
