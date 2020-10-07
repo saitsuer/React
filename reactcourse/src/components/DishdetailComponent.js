@@ -4,7 +4,7 @@ import { Card, CardImg, CardText, CardBody, CardTitle, Row, Col } from 'reactstr
 class DishDetail extends Component {
 
 
-    renderComments(dish) {
+    renderComments(dish.comment) {// feasture devam ediyo
         
         if (dish != null) {
             let comments=dish.comments;
